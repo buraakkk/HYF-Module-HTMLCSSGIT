@@ -50,8 +50,8 @@
     margin-bottom:7rem;
     font-size: 130%;
     padding-right: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left:  8rem;
+    margin-right: 8rem;
   }
 
   .about-img p {
@@ -66,8 +66,8 @@
       margin-bottom:7rem;
       font-size: 130%;
       padding-right: 3rem;
-      margin-left:  2rem;
-      margin-right: 2rem;
+      margin-left:  8rem;
+      margin-right: 8rem;
     }
     
     .education-img ul {
@@ -82,8 +82,8 @@
       margin-bottom:7rem;
       font-size: 130%;
       padding-right: 3rem;
-      margin-left:  2rem;
-      margin-right: 2rem;
+      margin-left:  8rem;
+      margin-right: 8rem;
     }
     
     .education-img-2 ul {
@@ -99,8 +99,8 @@
       margin-bottom:7rem;
       font-size: 130%;
       padding-left: 3rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
+      margin-left:  8rem;
+      margin-right: 8rem;;
     }
     
     .work-img p {
@@ -161,9 +161,11 @@
     .about-section {
       padding: 30px;
       text-align: center;
-      background-color: #d4ddf1;
+      background-color: #6a94ee;
       color: rgb(8, 7, 7);
-      font-size: 25px;
+      font-size: 35px;
+      margin-left:  8rem;
+      margin-right: 8rem;
     }
   .about-section .button {
       border: none;
@@ -181,6 +183,13 @@
       background-color: rgb(212, 16, 16);
     }
 
+
+
+
+
+
+
+/*
     @media screen and (max-width: 600px) {
       ul.menu li.right, 
       ul.menu li {float: none;}
@@ -193,20 +202,20 @@
       }
     }
 
-  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 700px) {
+ 
+ @media screen and (max-width: 700px) {
     .general {   
       flex-direction: column;
     }
   }
 
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  
   @media screen and (max-width: 400px) {
     .menu a {
       float: none;
       width: 100%;
     }
-  }
+  }*/
 
 
 
