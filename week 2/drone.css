@@ -93,7 +93,7 @@ h2 {
     box-shadow:rgba(156, 143, 24, 0.8) 0px 10px 20px;
     padding: 2rem;
     cursor: grabbing;
-    font-size: 55px;
+    
 }
 
 .grid-item:hover {
