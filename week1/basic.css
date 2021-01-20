@@ -147,7 +147,9 @@ h3{
         text-align: left;
     }
 
-    
+#projects {
+  text-align: center;
+}    
 .column {
       float: left;
       width: 33.3%;
@@ -406,4 +408,3 @@ padding-left: 2rem;
   
 
 }
-/**/
