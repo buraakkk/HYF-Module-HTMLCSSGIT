@@ -49,35 +49,20 @@ h1 {
 
 
 h2 {
-/*position*/
+    clear: left; // to stop any floating on this element.
     padding: 25px;
-    width: 100%;
-    max-height: 50px;
     margin-bottom: 2rem;
-/*flexbox part*/
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
-/*text properties*/
     text-transform: capitalize;
     font-weight: 500;
     background-color: #4ad14a4f;
-   
-/*animation */
     animation-duration: 2s;
     animation-name: example2;
     animation-iteration-count: infinite;
 }
-
-
-
-
-
-
 /* The animation code */
 @keyframes example2 {
-    from {margin-left: 5%; width:100%;}
-    to {margin-right: 0%; width:100%;}
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(100px);}
   }
 
   li {
@@ -117,14 +102,12 @@ h2 {
 /* grid flex section */
 #grid-flex {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #grid-flex .grid-item {
-    flex: 0 1 auto;
-    width: 20%;
+    flex: 0 1 20;
     margin: 1rem;
 }
 
