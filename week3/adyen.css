@@ -1,423 +1,427 @@
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-  
-          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Adyen Website</title>
-      <link rel="stylesheet" href="adyen.css">
-      
-    </head>
-
-
-    <body>
-<!--Navigation--------------------------------------------------------------------------------------------------------------->   
-    <div class="container">
-        <div class="menu">
-        <a href="#" class="brand-logo left responsive-img"><img src="adyen1.jpg" alt="Logo" width="100px"></a>
-        <nav class="white">
-          <div class="nav-wrapper">
-            <a href="#" class="sidenav-trigger black-text" data-target="mobile-demo">
-                <i class="material-icons">menu</i></a>
-
- <!------Left part of Navigation--------------------------------------------------------------------------------------------->
-            <ul class="left hide-on-med-and-down">
-                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1">Our Solution
-                        <i class="material-icons right">arrow_drop_down</i></a></li>
-
-                    <li><a class="black-text">Customers</a></li>
-
-                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown2">About Us
-                        <i class="material-icons right">arrow_drop_down</i></a></li>
-
-                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown3">Documentation
-                        <i class="material-icons right">arrow_drop_down</i></a></li>    
-            </ul>
-<!------Left part of Navigation--------------------------------------------------------------------------------------------->          
-
-
-
-<!--Right part of navigation------------------------------------------------------------------------------------------------>
-            <ul class="right hide-on-med-and-down">
-                    <li><a class="black-text"><i class="material-icons">search</i></a></li>
-                    <li><a class="black-text">Contact Us</a></li>
-                    <li><a class="black-text">Log In</a></li>
-                    <li><a class="btn" href="/signup" data-button="" data-tracking-text="Create An Account">Create An Account</a></li>
-            </ul>
-<!--Right part of navigation------------------------------------------------------------------------------------------------>
-
-
-
-<!--Sidenav for mobile phones----------------------------------------------------------------------------------------------->
-            <ul class="sidenav black-text" id="mobile-demo">
-                <li><a href="#">Our Solution</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Log In</a></li>
-                <li><a href="#">Creat An Account</a></li>
-              </ul>
-<!--Sidenav for mobile phones----------------------------------------------------------------------------------------------->
-
-
-
-<!----Dropdown Structure----------------------------------------------------------------------------------------------------->
-            <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-            </ul>
-            <ul id="dropdown2" class="dropdown-content">
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-            </ul>
-            <ul id="dropdown3" class="dropdown-content">
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-            </ul>
-<!--Sidenav for mobile phones----------------------------------------------------------------------------------------------->
-
-
-
-          </div>
-       </nav>
-    </div>
-  </div>
-<!--Navigation---------------------------------------------------------------------------------------------------------------> 
-
-<!--Main Part---------------------------------------------------------------------------------------------------------------->
-<div class="container"> 
-  <div class="container-fluid">
-     <div class="row">
-
-       <!--Left part ------------------------------------------------------------------------------------>
-      <div class="col-lg-6">
-        <h1 class="display-2 mt-5">Accept <br>payments <br> everywhere</h1>
-        <h4> 
-            Meet the payments platform built for any <br> business and every customer journey.
-        </h5>
-        <div class="column-buttons">
-        <a class="btn green-primary " href="/signup" data-button="" data-tracking-text="Start your journey with us"> Start your journey with us </a>
-        </div>
-      </div>
-      <!--Left part ------------------------------------------------------------------------------------>
-
-      <!--Right Part------------------------------------------------------------------------------------>
-      <!--I took video part from main part op website-->
-      <div class="col-lg-6">
-        <div jsm-video-selfhosted="">
-          <div class="videoWrapper">
-            <video video__selfhosted="" class="video__selfhosted" autoplay="" muted="" playsinline="" loop="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="100%">
-                <source src="adyen-video.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-      <!--Right Part------------------------------------------------------------------------------------>
 
-    </div>
-  </div>
-</div>
 
-<!--Main Part---------------------------------------------------------------------------------------------------------------->
-
-<div class="container"> 
-     <div class="row"> 
-      <div class="col-lg-2">
-          <img src="uber.jpg" alt="Snow" style="width:100%">
-        </div>
-
-        <div class="col-lg-2 mt-5">
-          <img src="MANGO.jpg" alt="Snow" style="width:80%">
-        </div>
-
-        <div class="col-lg-2 mt-5">
-          <img src="bookingcom.png" alt="Snow" style="width:50%">
-        </div>
-
-        <div class="col-lg-2 mt-2">
-          <img src="ebay.png" alt="Snow" style="width:50%">
-        </div>
-
-        <div class="col-lg-2 mt-4">
-          <img src="download.png" alt="Snow" style="width:70%">
-        </div>
-
-        <div class="col-lg-2 mt-5">
-          <img src="spotify.png" alt="Snow" style="width:50%">
-        </div>
-     </div>
-    </div>
-</div>
-<!--Main Part---------------------------------------------------------------------------------------------------------------->
-
-
-<!--Cards Parts---------------------------------------------------------------------------------------------------------------------->
-  
-
-<div class="static  blue-grey lighten-5">
-          <div class="container marketing">
-                <div class="row">
-
-                  <div class="partfirst col-lg-4">
-                    <div class="">
-                      <img class="rounded-circle" src="green1.jpg" alt="Generic placeholder image" width="40" height="40">
-                      <h1>Growth</h1>
-                      <h5>Expand into new markets with local <br>acquiring and payment methods.</h5>
-                      <a href="/payment-methods" class="group__item-link">Payment methods</a>
-                    </div><!-- /.col-lg-4 -->
-                  </div> 
-
-
-                  <div class="partsecond col-lg-4">
-                      <img class="rounded" src="green3.jpg" alt="Generic placeholder image" width="40" height="40">
-                      <h1>Revenue</h1>
-                      <h5>Optimize each transaction, increase <br> conversions, and drive revenue.</h5>
-                      <a href="/payment-methods" class="group__item-link">Revenue Accelerate</a>
-                    </div><!-- /.col-lg-4 -->
-
-
-                    <div class="partthird col-lg-4">
-                      <img class="rounded" src="green2.jpg" alt="Generic placeholder image" width="40" height="40">
-                      <h1>Real partnership</h1>
-                      <h5>Access expert advice and support from a <br>dedicated team of payments specialists.</h5>
-                      <a href="/payment-methods" class="group__item-link">Start your journey</a>
-                    </div><!-- /.col-lg-4 -->
-
-
-                </div><!-- /.row -->
-          </div><!-- /.container -->
-    </div><!-- /static -->
-
-
- <!--Cards Parts---------------------------------------------------------------------------------------------------------------------->
-
-
-
-
-<!------------------------------------------------Accept Payment  revenue part-------------------------------------------------------->
-<section class="jumbotron jumbotron-fluid text-center">
-  <div class="container">
-    <h1 class="jumbotron-heading col-lg-5 display-5"><strong>Accept payments across all sales channels</strong></h1>
-    <p class="col-lg-5"> Let your shoppers use their preferred payment types, via a personalized checkout experience, online, in app, or in store, no matter where in the world they are.</p>
-    <p>
-      <a href="#">More About connected sales channels</a>
-    </p>
-  </div>
-</section>
-
-<!------------------------------------------------Accept Payment  revenue part------------------------------------------------------------------>
-
-
-
-
-<!--------------------------------------------------Two col 6 part----------------------------------------------------------------------------->
-
-<section class="container">
-  <div class="row">
-
-          <div class="col-lg-5">
-              <img src="homepage.gif" class="img-fluid" />
-              <h5> Online and in-app payments  </h5>
-              <p> Accept cards, mobile wallets and more on any digital channel or device.
-                  Every checkout is fully optimized and geared for more conversions.
-              </p>
-              <a href="#">More about online payments</a>
-          </div>
-
-          <div class="col-lg-5">
-              <img src="homepage2.jpg" class="img-fluid" />
-              <h5> Payment terminals and in-store POS setups</h5>
-              <p> Enhance in-person payment experiences with a terminal for any need.
-                  It’s easy to set-up and comes packed with features. 
-              </p>
-              <a href="#">More about POS payments</a>
-          </div>
-  </div>
-</section>
-<!--------------------------------------------------Two col 6 part----------------------------------------------------------------------------->
-
-
-<!--------------------------------------------------Fourth Part-------------------------------------------------------------------------------->
-
-<section class="four-part">
-  <div class="container-fluid">
-      <div class="row">
-          
-
-              <div class="col-lg-6">
-                    <div class="videoWrapper">
-                          <video video__selfhosted="" class="video__selfhosted" autoplay="" muted="" playsinline="" loop="" 
-                          webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="100%">
-                          <source src="adyenvideo2.mp4" type="video/mp4">
-                          </video>
-                    </div>
-              </div>
-
-              <div class="col-lg-6">
-                    <h1 class="display-5"> Approve more transactions</h1>
-                    <p> Experience more approvals on every single payment with local and global payment processing, data-driven optimizations, and powerful risk management. 
-                      All within a fully connected single payments system.</p>
-              </div>
-
-                   
-      </div>
-   </div>
-</section>
-<!--------------------------------------------------Fourth Part-------------------------------------------------------------------------------->
-
-
-<!--------------------------------------------------Fiveth Part-------------------------------------------------------------------------------->
-
-<section id="services" class="container-fluid blue-grey lighten-5" >
-  <div class="row">
-
-                <div class="col-lg-6">
-                  <h1>Understand what your customers really want</h1>
-                  <p>
-                    Get a better understanding of your entire business with in-depth insights and reporting all in one place. 
-                  </p>
-                               
-                </div>
-
-                <div class="col-lg-6">
-                  <img src="Browser.png" class="img-fluid"/>
-                </div>
-
-                  
-                 
-
-                
-  </div>
-</section>
-<!--------------------------------------------------Fiveth Part-------------------------------------------------------------------------------->
-
-
-
-<!------------------------------------------------Accept Payment  revenue part-------------------------------------------------------->
-<section class="jumbotron text-center">
-  <div class="container">
-
-    <div class="sixpart">
-    <h1 class="jumbotron-heading col-lg-5 display-5"><strong>We work with companies with big ideas</strong></h1>
-      <a href="#">See who we're working with</a>
-    </div>
-
-  </div>
-</section>
-
-<!------------------------------------------------Accept Payment  revenue part------------------------------------------------------------------>
-
-<!------------------------------------------------Seventh Part---------------------------------------------------------------------------------->
-
-.
-  <div class="container container-fluid">
-     <div class="row">
-
-       <!--Left part ------------------------------------------------------------------------------------>
-       <div class="col-lg-6">
-        <div jsm-video-selfhosted="">
-          <div class="videoWrapper">
-            <video video__selfhosted="" class="video__selfhosted" autoplay="" muted="" playsinline="" loop="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="100%">
-                <source src="Lush.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-      
-      <!--Left part ------------------------------------------------------------------------------------>
-
-      <!--Right Part------------------------------------------------------------------------------------>
-      <!--I took video part from main part op website-->
-            <div class="seven col-lg-6">
-                      <h1>LUSH</h1>
-                      <h4> 
-                        "Working with the sales teams and account managers has been great. 
-                        They've helped us get to market with our LUSH Pay solution much quicker than if we had tried to do it ourselves.”
-                      </h5>
-
-                      <div class="column-buttons">
-                        <a href="#"><i class="fal fa-play-circle"></i>Watch video now</a>
-                        
-                      </div>
-            </div>
-      
-      <!--Right Part------------------------------------------------------------------------------------>
-
-    </div>
-  </div>
-<!------------------------------------------------Seven Parth------------------------------------------------------------------>
-
-<!------------------------------------------------Eight Parth------------------------------------------------------------------>
-<div class="static">
-  <div class="container marketing">
-        <div class="row">
-
-          <div class="eightfirst col-lg-4">
-            <div class="">
-              <img class="rounded" src="hompage-16x9-brompton.jpg" alt="Generic placeholder image" width="350" height="300">
-              <h6>BROMPTON</h6>
-              <p>Making tracks with global payments</p>
-              <a href="/payment-methods" class="group__item-link">Read Customer Story</a>
-            </div><!-- /.col-lg-4 -->
-          </div> 
-
-
-          <div class="eightsecond col-lg-4">
-              <img class="rounded" src="hompage-16x9-flixbus.jpg" alt="Generic placeholder image" width="350" height="300">
-              <h6>FLIXBUS</h6>
-              <p>The road to global expansion</p>
-              <a href="/payment-methods" class="group__item-link">Read Customer Story</a>
-            </div><!-- /.col-lg-4 -->
-
-
-            <div class="eightthird col-lg-4">
-              <img class="rounded" src="hompage-16x9-transferwise.jpg" alt="Generic placeholder image" width="350" height="300">
-              <h6>TRANSFERWISE</h6>
-              <p>4 questions with Wade Stokes</p>
-              <a href="/payment-methods" class="group__item-link">Read Customer Story</a>
-            </div><!-- /.col-lg-4 -->
-
-
-        </div><!-- /.row -->
-  </div><!-- /.container -->
-</div><!-- /static -->
-
-<!------------------------------------------------Eight Parth------------------------------------------------------------------>
-<!------------------------------------------------Nine Parth------------------------------------------------------------------>
-<div class="nine">
-    <div class="container-fluid text-center">
-
-            <h1 class="white-text">Start your journey with Adyen today</h1>
-            <button type="button" class="btn btn-secondary">Create a test account</button>
-
-    </div>
-</div>
-<!------------------------------------------------Nine Parth------------------------------------------------------------------>
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-     <script src="adyen.js"></script>        
-    <script>
-         $(document).ready(function(){
-             $('.sidenav').sidenav();
-        });
-    </script> 
-         
-    </body>
-  </html>
+
+body {
+    font-family:Fakt, sans-serif, Helvetica;
+}
+/*--------------------------------------------------Menu CSS---------------------------------------------------------------------*/
+.container .menu {
+    margin-top: 1rem;
+    margin-left: 45px;
+    margin-right:12px;
+}
+.container .menu .btn{
+    background-color: rgb(81, 194, 81);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .menu .btn:hover {
+    background-color: rgb(31, 128, 31)
+}
+/*---------------------------------------------------Menu CSS---------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------Second Part---------------------------------------------------------------*/
+.container .container-fluid {
+    margin-top: 1rem;
+    padding-left: 40px;
+}
+.container .container-fluid h1 {
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+}
+.container .container-fluid h4 {
+    margin-bottom: 1rem;
+}
+
+.column-buttons .btn{
+    background-color: rgb(81, 194, 81);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.column-buttons .btn:hover {
+    background-color: rgb(31, 128, 31)
+}
+/*---------------------------------------------------Second Part---------------------------------------------------------------*/
+
+
+/*------------------------------------------------Growth revenue part--------------------------------------------------------*/
+.static .container .row img {
+    margin-left: 2rem;
+}
+/* First Part*/
+.static .container .row .partfirst {
+    padding-left: 6rem;
+    margin-bottom: 10rem;
+}
+.static .container .row .partfirst img {
+   margin-top: 7rem;
+   margin-left: 5rem;
+}
+.static .container .row .partfirst h1 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .partfirst h5 {
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .partfirst a {
+    margin-left: 2rem;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color:green;
+}
+.static .container .row .partfirst a:hover {
+    text-decoration: underline;
+}
+
+/* Second Part*/
+.static .container .row .partsecond {
+    padding-left: 6rem;
+    margin-bottom: 10rem;
+}
+.static .container .row .partsecond img {
+   margin-top: 7rem;
+   margin-left: 6rem;
+}
+.static .container .row .partsecond h1 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 3rem;
+}
+.static .container .row .partsecond h5 {
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .partsecond a {
+    margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.static .container .row .partsecond a:hover {
+    text-decoration: underline;
+}
+
+/* Third Part*/
+.static .container .row .partthird {
+    padding-left: 6rem;
+    margin-bottom: 10rem;
+}
+.static .container .row .partthird img {
+   margin-top: 7rem;
+   margin-left: 5rem;
+}
+.static .container .row .partthird h1 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
+.static .container .row .partthird h5 {
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .partthird a {
+    margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.static .container .row .partthird a:hover {
+    text-decoration: underline;
+}
+/*------------------------------------------------Growth revenue part--------------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------Accept Payment  revenue part--------------------------------------------------------*/
+.jumbotron .container h1 {
+    margin-top: 5rem;
+    margin-left: 25rem;
+    font-size: 320%;
+}
+.jumbotron .container p {
+    margin-top: 2rem;
+    margin-left: 25rem;
+    font-size: 130%;
+}
+.jumbotron .container a {
+    margin-top: 1rem;
+    margin-right: 25rem;
+    color: green;
+    text-transform: capitalize;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.jumbotron .container a:hover {
+    text-decoration: underline;
+}
+/*------------------------------------------------Accept Payment  part-------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------Two col 6 parts------------------------------------------------------------------------------*/
+
+.container .row .col-lg-5 {
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+.container .row .col-lg-5 img{
+    margin-bottom: 2rem;
+}
+.container .row .col-lg-5 h5{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container .row .col-lg-5 p{
+    font-weight: lighter;
+    font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.container .col-lg-5 a {
+    color: green;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;   
+}
+.container .col-lg-5 a:hover {
+    text-decoration: underline;
+}
+/*------------------------------------------------Two col 6 parts------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Fourth Part----------------------------------------------------------------------------------*/
+.four-part .container-fluid .row  {
+    background-color: rgb(9, 9, 36);
+    color:white;
+}
+.four-part .container-fluid .row h1 {
+    margin-left: 1.5rem;
+    padding-right: 15rem;
+    margin-top: 12rem;
+    font-weight: bolder;
+    
+}
+.four-part .container-fluid .row p{
+    font-weight: lighter;
+    font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    line-height: 30px;
+    text-align: left;
+    padding-right: 16rem;
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+    font-weight: bolder;
+}
+/*------------------------------------------------Fourth Part----------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Fiveth Part----------------------------------------------------------------------------------*/
+
+#services  .row h1 {
+    padding-top: 13rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+    font-weight: bolder;
+    font-size: 45px;
+    
+}
+#services  .row p {
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+    font-size: 20px;
+}
+
+#services .row img {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+/*------------------------------------------------Fiveth Part----------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Sixth Part----------------------------------------------------------------------------------*/
+.jumbotron  .sixpart h1 {
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+.jumbotron  .sixpart a {
+    margin-left: 25rem;
+    color: green;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;  
+}
+.jumbotron  .sixpart a:hover {
+    text-decoration: underline;
+}
+/*------------------------------------------------Sixth Part----------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Seventh Part----------------------------------------------------------------------------------*/
+
+.container.container-fluid .row   {
+    margin-top:5rem;
+    margin-left: 4rem;
+}
+.container-fluid .row .seven h1 {
+    margin-left: 7rem;
+    padding-top: 10rem;
+}
+.container-fluid .row .seven h4 {
+    margin-left: 7rem;
+    font-weight: lighter;
+    font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    line-height: 30px;
+    text-align: left;
+    margin-right:7rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.container-fluid .row .seven a {
+    margin-left: 7rem;
+    color: green;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: bolder;
+}
+.container-fluid .row .seven a:hover {
+    text-decoration: underline;
+}
+/*-----------------------------------------------------Seventh Part-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------Eight Part---------------------------------------------------------------------------*/
+.static .container .row img {
+    margin-top: 3rem;
+}
+/* First Part*/
+.static .container .row .eightfirst {
+    padding-left: 3rem;
+   
+}
+
+.static .container .row .eightfirst h6 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+    
+}
+.static .container .row .eightfirst p {
+    text-align: center;
+    margin-left: -6rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .eightfirst a {
+    margin-left: 2rem;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color:green;
+}
+.static .container .row .eightfirst a:hover {
+    text-decoration: underline;
+}
+
+/* Second Part*/
+.static .container .row .eightsecond {
+    padding-left: 2rem;
+    
+}
+.static .container .row .eightsecond h6 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .eightsecond p {
+    text-align: center;
+    margin-left: -10rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .eightsecond a {
+    margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.static .container .row .eightsecond a:hover {
+    text-decoration: underline;
+}
+
+/* Third Part*/
+.static .container .row .eightthird {
+    padding-left: 1rem;
+  ;
+}
+.static .container .row .eightthird img {
+   
+}
+.static .container .row .eightthird h6 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .eightthird p {
+    text-align: center;
+    margin-left: -10rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .eightthird a {
+    margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.static .container .row .eightthird a:hover {
+    text-decoration: underline;
+}
+/*---------------------------------------------------------Eight Part---------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------Nine Part---------------------------------------------------------------------------*/
+
+.nine .container-fluid{
+    background-color: #54e346;
+}.nine .container-fluid h1 {
+    padding-top: 5rem;
+}
+.nine .container-fluid .btn {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: rgb(9, 9, 36);
+    color:white;
+    text-transform:none
+}
+
+/*---------------------------------------------------------Nine Part---------------------------------------------------------------------------*/
